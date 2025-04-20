@@ -12,45 +12,38 @@ export default function Home() {
 
   const featuredProjects = [
     {
-      id: "neural-network",
-      title: "Neural Network Visualizer",
-      description: "Interactive visualization of neural networks with real-time data processing and node connections.",
+      id: "mobile-app",
+      title: "ACC Fitness",
+      description: "Android mobile application to improve fitness planning.",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["React", "D3.js", "TensorFlow.js"],
+      technologies: ["Flutter", "Dart", "Firebase"],
     },
     {
-      id: "crypto-dashboard",
-      title: "Crypto Dashboard",
-      description: "Real-time cryptocurrency tracking dashboard with customizable widgets and alerts.",
+      id: "java-app",
+      title: "Temple of Treasures",
+      description: "Web application that users can buy/sell famous items from movies, books, and tv shows.",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Next.js", "WebSockets", "Chart.js"],
-    },
-    {
-      id: "ai-chatbot",
-      title: "AI Chatbot",
-      description: "Conversational AI assistant with natural language processing and machine learning capabilities.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Python", "NLP", "TensorFlow"],
+      technologies: ["Java Spring Boot", "CSS", "MySQL"],
     },
   ]
 
-  const latestPosts = [
-    {
-      id: "future-of-ai",
-      title: "The Future of AI Development",
-      excerpt: "Exploring the ethical implications and technological advancements in artificial intelligence.",
-      date: "2023-05-15",
-      readingTime: "5 min read",
-    },
-  ]
+ // const latestPosts = [
+  //  {
+  //    id: "future-of-ai",
+   //   title: "The Future of AI Development",
+  //    excerpt: "Exploring the ethical implications and technological advancements in artificial intelligence.",
+   //   date: "2023-05-15",
+  //    readingTime: "5 min read",
+  //  },
+  //]
 
-  const skills = ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Python", "TensorFlow", "AWS"]
+  const skills = ["C#.NET", "JavaScript", "TypeScript", "HTML", "CSS"]
 
   return (
     <div className="space-y-16">
       <section className="py-12">
         <Terminal
-          text="Hello, World. I am CYBER_DEV. Full-stack developer and AI enthusiast. Welcome to my digital realm."
+          text="Hello, World. I am Luis Pereira. Software Design & Developer. Welcome to my portfolio."
           typingSpeed={40}
           className="max-w-3xl mx-auto"
           onComplete={() => setIntroComplete(true)}
@@ -102,21 +95,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold">Latest from the Blog</h2>
-          <Link href="/blog" className="text-primary hover:underline inline-flex items-center gap-1">
-            View all <ArrowRight size={16} />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 gap-6">
-          {latestPosts.map((post) => (
-            <BlogCard key={post.id} {...post} />
-          ))}
         </div>
       </section>
     </div>
