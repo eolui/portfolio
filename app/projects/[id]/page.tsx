@@ -17,10 +17,11 @@ export default function ProjectPage() {
       technologies: ["Flutter", "Dart", "Firebase"],
       category: "mobile",
       github: "https://github.com/eolui/acc",
-      longDescription:
+      longDescription: [
         "This project provides an interactive visualization of how full each gym on ACC campus is and what equipments each has, it gives real-time updates for the gym's occupancy. It has two sides, the user side which is used to scan their QR Codes when accessing the gym, and admin side which is used to scan the QR Codes and to know which gym that QR Code was scanned at",
         "Talking more about it",
         "And more",
+      ],
 
     },
     "java-app": {
