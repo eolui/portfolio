@@ -17,11 +17,8 @@ export default function ProjectPage() {
       technologies: ["Flutter", "Dart", "Firebase"],
       category: "mobile",
       github: "https://github.com/eolui/acc",
-      longDescription: [
-        "This project provides an interactive visualization of how full each gym on ACC campus is and what equipments each has, it gives real-time updates for the gym's occupancy. It has two sides, the user side which is used to scan their QR Codes when accessing the gym, and admin side which is used to scan the QR Codes and to know which gym that QR Code was scanned at",
-        "Talking more about it",
-        "And more",
-      ],
+      longDescription:
+        "This project provides an interactive visualization of how full each gym on ACC campus is and what equipments each has, it gives real-time updates for the gym's occupancy. It has two sides, the user side which is used to scan their QR Codes when accessing the gym, and admin side which is used to scan the QR Codes and to know which gym that QR Code was scanned at. \n\nTalking more about it. \n\nAnd more",
 
     },
     "java-app": {
@@ -94,16 +91,11 @@ export default function ProjectPage() {
       </div>
 
       <div className="prose prose-invert max-w-none">
-  <h2 className="text-2xl font-bold mb-4">Project Overview</h2>
-  {Array.isArray(project.longDescription) ? (
-    project.longDescription.map((paragraph, index) => (
-      <p key={index} className="text-muted-foreground">
-        {paragraph}
-      </p>
-    ))
-  ) : (
-    <p className="text-muted-foreground">{project.longDescription}</p>
-  )}
-</div>
+        <h2 className="text-2xl font-bold mb-4">Project Overview</h2>
+        <p className="text-muted-foreground" style={{ whiteSpace: "pre-line" }}>
+  {project.longDescription}
+</p>
+      </div>
+    </div>
   )
 }
