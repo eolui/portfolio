@@ -12,7 +12,6 @@ export function Navigation() {
   const navItems = [
     { name: "home", path: "/" },
     { name: "projects", path: "/projects" },
-    { name: "blog", path: "/blog" },
     { name: "about", path: "/about" },
   ]
 
