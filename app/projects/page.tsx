@@ -11,7 +11,7 @@ export default function ProjectsPage() {
       id: "mobile-app",
       title: "ACC Fitness",
       description: "Android mobile application to improve fitness planning.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/gympage.png?height=400&width=600",
       technologies: ["Flutter", "Dart", "Firebase"],
       category: "mobile",
     },

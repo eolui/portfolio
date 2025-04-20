@@ -13,7 +13,7 @@ export default function ProjectPage() {
     "mobile-app": {
       title: "ACC Fitness",
       description: "Android mobile application to improve fitness planning.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/gympage.png?height=600&width=800",
       technologies: ["Flutter", "Dart", "Firebase"],
       category: "mobile",
       github: "https://github.com/eolui/acc",
