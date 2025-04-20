@@ -94,9 +94,16 @@ export default function ProjectPage() {
       </div>
 
       <div className="prose prose-invert max-w-none">
-        <h2 className="text-2xl font-bold mb-4">Project Overview</h2>
-        <p className="text-muted-foreground">{project.longDescription}</p>
-      </div>
-    </div>
+  <h2 className="text-2xl font-bold mb-4">Project Overview</h2>
+  {Array.isArray(project.longDescription) ? (
+    project.longDescription.map((paragraph, index) => (
+      <p key={index} className="text-muted-foreground">
+        {paragraph}
+      </p>
+    ))
+  ) : (
+    <p className="text-muted-foreground">{project.longDescription}</p>
+  )}
+</div>
   )
 }
