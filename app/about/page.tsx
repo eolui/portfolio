@@ -185,7 +185,7 @@ export default function AboutPage() {
                   </p>
                   <div className="space-y-4">
                     <div>
-                      <p className="mb-1 text-primary">github0:</p>
+                      <p className="mb-1 text-primary">github:</p>
                       <Link
                         href="https://github.com"
                         className="flex items-center gap-2 hover:text-primary transition-colors"
@@ -196,7 +196,7 @@ export default function AboutPage() {
                       </Link>
                     </div>
                     <div>
-                      <p className="mb-1 text-primary">linkedin0:</p>
+                      <p className="mb-1 text-primary">linkedin:</p>
                       <Link
                         href="https://linkedin.com"
                         className="flex items-center gap-2 hover:text-primary transition-colors"
@@ -207,7 +207,7 @@ export default function AboutPage() {
                       </Link>
                     </div>
                     <div>
-                      <p className="mb-1 text-primary">mail0:</p>
+                      <p className="mb-1 text-primary">mail:</p>
                       <Link
                         href="mailto:hello@example.com"
                         className="flex items-center gap-2 hover:text-primary transition-colors"
