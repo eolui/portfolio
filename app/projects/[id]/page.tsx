@@ -20,11 +20,11 @@ export default function ProjectPage() {
       longDescription:
         "This project provides an interactive visualization of how full each gym on ACC campus is and what equipments each has, it gives real-time updates for the gym's occupancy. It has two sides, the user side which is used to scan their QR Codes when accessing the gym, and admin side which is used to scan the QR Codes and to know which gym that QR Code was scanned at",
     },
-    "crypto-dashboard": {
-      title: "Crypto Dashboard",
-      description: "Real-time cryptocurrency tracking dashboard with customizable widgets and alerts.",
-      image: "/placeholder.svg?height=600&width=800",
-      technologies: ["Next.js", "WebSockets", "Chart.js"],
+    "java-app": {
+      title: "Temple of Treasures",
+      description: "Web application that users can buy/sell famous items from movies, books, and tv shows.",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["Java Spring Boot", "CSS", "MySQL"],
       category: "web",
       github: "https://github.com/eolui/Temple-Of-Treasures",
       longDescription:
