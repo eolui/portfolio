@@ -14,35 +14,25 @@ export default function AboutPage() {
 
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Inc.",
-      period: "2021 - Present",
+      title: "Information Technology Intern",
+      company: "Carlisle Companies Inc.",
+      period: "Jun 2024 - Aug 2024",
       description:
-        "Leading the frontend development team, implementing modern React architectures, and optimizing application performance.",
+        "Gained hands-on experience and provided support across the application support, service delivery, and vendor management departments",
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Solutions",
-      period: "2018 - 2021",
+      title: "Volunteer",
+      company: "Night to Shine",
+      period: "2017 - 2020",
       description:
-        "Developed and maintained web applications using React, Node.js, and MongoDB. Implemented CI/CD pipelines and automated testing.",
-    },
-    {
-      title: "Junior Developer",
-      company: "StartUp Labs",
-      period: "2016 - 2018",
-      description:
-        "Worked on frontend development using JavaScript and CSS. Collaborated with designers to implement responsive UI components.",
+        "Volunteered at a prom event for individuals with special needs, giving support, encouragement, and a joyful experience for guests throughout the evening.",
     },
   ]
 
   const skills = [
-    { category: "Languages", items: ["JavaScript", "TypeScript", "Python", "C#"] },
-    { category: "Frontend", items: ["React", "Next.js", "Vue.js", "CSS/SCSS", "Tailwind CSS"] },
-    { category: "Backend", items: ["Node.js", "Express", "Django", "ASP.NET Core"] },
-    { category: "Database", items: ["MongoDB", "PostgreSQL", "MySQL", "Redis"] },
-    { category: "DevOps", items: ["Docker", "Kubernetes", "AWS", "CI/CD", "Git"] },
-    { category: "AI/ML", items: ["TensorFlow", "PyTorch", "NLP", "Computer Vision"] },
+    { category: "Languages", items: ["Java", "JavaScript", "TypeScript", "C#.NET", "SQL", "HTML", "CSS"] },
+    { category: "Libraries & Frameworks", items: ["ASP.NET", "Angular", "React", "Flutter", "jQuery"] },
+    { category: "Database", items: ["Firebase", "MySQL"] },
   ]
 
   return (
@@ -57,7 +47,7 @@ export default function AboutPage() {
 
         {introComplete && (
           <Terminal
-            text="Hello, I'm CYBER_DEV. A full-stack developer with a passion for AI, cybersecurity, and creating immersive digital experiences. I specialize in building modern web applications with a focus on performance, accessibility, and user experience."
+            text="Hello, I'm Luis Pereira. A full-stack developer with a passion for AI, cybersecurity, and creating better digital experiences. I specialize in building and designing modern applications with a focus on user experience."
             typingSpeed={20}
             className="max-w-3xl mx-auto mt-4"
             showPrompt={false}
@@ -202,18 +192,7 @@ export default function AboutPage() {
                         target="_blank"
                       >
                         <Github size={16} />
-                        github.com/cyberdev
-                      </Link>
-                    </div>
-                    <div>
-                      <p className="mb-1 text-primary">twitter0:</p>
-                      <Link
-                        href="https://twitter.com"
-                        className="flex items-center gap-2 hover:text-primary transition-colors"
-                        target="_blank"
-                      >
-                        <Twitter size={16} />
-                        twitter.com/cyberdev
+                        github.com/eolui
                       </Link>
                     </div>
                     <div>
@@ -224,7 +203,7 @@ export default function AboutPage() {
                         target="_blank"
                       >
                         <Linkedin size={16} />
-                        linkedin.com/in/cyberdev
+                        linkedin.com/in/lpereiraki
                       </Link>
                     </div>
                     <div>
@@ -234,7 +213,7 @@ export default function AboutPage() {
                         className="flex items-center gap-2 hover:text-primary transition-colors"
                       >
                         <Mail size={16} />
-                        hello@example.com
+                        lpereiraki@gmail.com
                       </Link>
                     </div>
                   </div>
